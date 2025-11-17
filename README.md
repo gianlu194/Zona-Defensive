@@ -1,15 +1,22 @@
-# Network Security Lab
+#Lab di Network Security
 
-This project shows a complete security lab setup with firewall, IDS, SIEM, and alerting.  
-It was built to simulate a real network defense environment and integrate multiple tools.  
+Questo progetto mostra un laboratorio completo di sicurezza di rete, con firewall, IDS, SIEM e sistema di alerting.
+È stato costruito per simulare un ambiente difensivo reale e integrare diversi strumenti tra loro.
 
-## Components
-- **pfSense**: firewall and main router.  
-- **Suricata**: IDS on pfSense, monitoring traffic and detecting threats.  
-- **Splunk**: SIEM collecting logs and correlating events.  
-- **Telegram Bot**: sends real-time alerts from Splunk to a chat.  
-- **Windows Server**: configured as DNS server.  
-- **Client Host**: Windows 10 machine to generate and test traffic.  
+#Componenti
 
-## Goal
-To design and test a small SOC architecture, detect attacks, and get instant alerts.  
+pfSense: firewall e router principale.
+
+Suricata: IDS installato su pfSense, monitora il traffico e rileva attività sospette o malevole.
+
+Splunk: SIEM che raccoglie i log e correla gli eventi.
+
+Bot Telegram: invia alert in tempo reale da Splunk a una chat dedicata.
+
+Windows Server: configurato come server DNS.
+
+Client Windows 10: host usato per generare traffico e testare rilevamenti.
+
+#Obiettivo
+
+Progettare e testare una piccola architettura da SOC, rilevare attacchi e ricevere avvisi immediati quando vengono identificati.
