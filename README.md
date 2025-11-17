@@ -1,22 +1,22 @@
-#Lab di Network Security
+🔵 Cyber-Defense
 
-Questo progetto mostra un laboratorio completo di sicurezza di rete, con firewall, IDS, SIEM e sistema di alerting.
-È stato costruito per simulare un ambiente difensivo reale e integrare diversi strumenti tra loro.
+Benvenuto nella sezione dedicata alla difesa informatica.
+Qui raccolgo tutto ciò che riguarda il lato Blue Team: monitoraggio, rilevamento minacce, analisi dei log, firewall, IDS/IPS e architetture pensate per proteggere una rete reale.
 
-#Componenti
+🛡️ Cos’è questa cartella
 
-pfSense: firewall e router principale.
+Questa directory contiene i miei laboratori difensivi, le configurazioni, gli script e gli esercizi che uso per simulare il lavoro di un SOC.
+Ogni progetto serve a capire:
 
-Suricata: IDS installato su pfSense, monitora il traffico e rileva attività sospette o malevole.
+come si protegge una rete
 
-Splunk: SIEM che raccoglie i log e correla gli eventi.
+come si leggono e si interpretano gli attacchi
 
-Bot Telegram: invia alert in tempo reale da Splunk a una chat dedicata.
+come si individuano comportamenti anomali
 
-Windows Server: configurato come server DNS.
+come si costruiscono contromisure efficaci
 
-Client Windows 10: host usato per generare traffico e testare rilevamenti.
+🎯 Obiettivo
 
-#Obiettivo
-
-Progettare e testare una piccola architettura da SOC, rilevare attacchi e ricevere avvisi immediati quando vengono identificati.
+Imparare a guardare la cybersecurity “dal lato della vittima”:
+capire cosa succede davvero quando un sistema viene attaccato e come rispondere in modo pratico, rapido e intelligente.
